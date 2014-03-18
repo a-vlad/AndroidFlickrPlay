@@ -144,8 +144,6 @@ public class MainActivity extends Activity
 	 */
 	private void processUpdatedResultSet()
 	{
-		Picasso.with(this).setDebugging(true);
-		
 		for (int i=0; i<results.getImages().size(); i++)
 		{
 			FlickrImage flickrImg = results.getImages().get(i);
